@@ -1468,10 +1468,6 @@
   </div>
   <!-- ./wrapper -->
   
-  <!-- uibuilder -->
-  <script src="../uibuilder/vendor/socket.io/socket.io.js"></script>
-  <script src="./uibuilderfe.min.js"></script>
-
   <!-- jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
   <!-- jQuery UI 1.11.4 -->
@@ -1507,7 +1503,7 @@
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="dist/js/pages/dashboard.js"></script>
   <!-- uibuilder -->
-  <script>
+  <script defer>
     uibuilder.send({
       "topic": "init",
       "payload": "init uibuilder"
